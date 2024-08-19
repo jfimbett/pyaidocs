@@ -5,6 +5,8 @@ from pyaidocs.options import Options
 options = Options()
 options.initialize()
 
+# Dev
+
 pdf_path = r"C:\Users\jfimb\Dropbox\AlphaGenFiles\old\prototype_seine\NGEM\3Q23 NGEM Investment Report.pdf"
 
 key_variables =  ["Fund Name", "CCY", "Vintage", "Ref. Date", "Seller's Fund Ownership", "Commitment", 
