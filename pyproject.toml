@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyaidocs"
-version = "0.1.1"
+version = "0.1.2"
 description = "A package for levering the use of AI models to analyze documents."
 authors = ["Juan F. Imbet"]
 license = "MIT"
