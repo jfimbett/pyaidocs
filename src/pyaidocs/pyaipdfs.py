@@ -5,6 +5,14 @@ from pprint import pprint
 #%%
 # check if the pdf is password protected
 def is_pdf_password_protected(pdf_path):
+    """Check if the PDF is password protected.
+
+    Args:
+        pdf_path (str): Path to the PDF file.
+
+    Returns:
+        bool: True if the PDF is password protected, False otherwise.
+    """
     doc = fitz.open(pdf_path)
     is_protected = doc.needs_pass
     doc.close()
@@ -24,7 +32,6 @@ def retrieve_info(doc, page_num, tables_=False):
 # Function to format the data nicely
 def format_data(data):
     # each element of data is a list, if all are '' skip them
-
     data = [d for d in data if any(d)]
     # replace '' with ' ' 
     data = [[cell if cell else ' ' for cell in row] for row in data]
@@ -35,7 +42,6 @@ def format_data(data):
 
 
 def pdf_to_text(pdf_path, password, pages=None, tables_=True):
-
     # Open the PDF file
     doc = fitz.open(pdf_path)  # Open the PDF
     if doc.needs_pass:  # Check if the document is password-protected
