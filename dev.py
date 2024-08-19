@@ -5,7 +5,7 @@ from pyaidocs.options import Options
 options = Options()
 options.initialize()
 
-# Dev
+# Dev, v2
 
 pdf_path = r"C:\Users\jfimb\Dropbox\AlphaGenFiles\old\prototype_seine\NGEM\3Q23 NGEM Investment Report.pdf"
 
