@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.0.3 (2024-08-19)
+
+### Fix
+
+* fix: documentation ([`41b1634`](https://github.com/jfimbett/pyaidocs/commit/41b1634c9efbd5517e7a27899aa70969110af5da))
+
 ## v0.0.2 (2024-08-19)
 
 ### Build
