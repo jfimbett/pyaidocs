@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.0.4 (2024-08-19)
+
+### Fix
+
+* fix: change visibility ([`c07d18a`](https://github.com/jfimbett/pyaidocs/commit/c07d18a9cc9094ad6ea625af0aefd688540ebac3))
+
 ## v0.0.3 (2024-08-19)
 
 ### Fix
